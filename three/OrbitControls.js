@@ -243,19 +243,6 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 	};
 
-	// extra code for zoom in and out with keys
-
-	this.zoomIn = function () {
-		this.dollyOut( getZoomScale() );
-		this.update();
-	};
-
-	this.zoomOut = function () {
-		this.dollyIn( getZoomScale() );
-		this.update();
-	};
-
-	//
 
 	this.update = function () {
 
